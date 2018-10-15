@@ -24,6 +24,9 @@ if (ModuleInit(ModName_idle)) {
       case "icones":
         SubstituirIcones(ModName_idle);
         break;
+      case "especificacao":
+        MostrarEspecificacao(ModName_idle);
+        break;
       default:
         break;
     }
